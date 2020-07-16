@@ -1,0 +1,89 @@
+.imgcircle {
+    border-radius: 50%;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+    text-align: c;
+}
+
+.standered_margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.image_margin {
+    margin-top: -50px;
+}
+
+.on_top_navbar {
+    position: absolute;
+}
+
+.fit_image {
+    max-width: 100%;
+    height: auto;
+}
+
+.align_left {
+    text-align: left;
+}
+
+.align_right {
+    text-align: right end;
+}
+
+.align_top {
+    text-align: top;
+}
+
+.heading_margin {
+    margin-bottom: 100px;
+}
+
+.text_property {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/*
+
+Nav bar
+
+*/
+
+.view {
+    background: url("assests/background.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+    border: none;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+.jumbotron_background {
+    background-image: url("assests/background_two.jpg");
+    background-size: cover;
+}
