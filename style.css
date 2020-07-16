@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .imgcircle {
     border-radius: 50%;
 }

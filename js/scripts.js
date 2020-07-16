@@ -62,8 +62,9 @@
                                         });
                                         $(document.getElementById("sm_email")).click(
                                             function open(){
-                                                window.open('https://www.facebook.com/aafaqali/', '_blank')
-                                
+                                                $('html, body').animate({
+                                                    scrollTop: $("#aboutMe").offset().top
+                                                }, 200);
                                             });
                                     
                                     
